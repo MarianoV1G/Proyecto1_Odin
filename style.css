@@ -1,0 +1,77 @@
+.hero{
+    /* Tiene 3 items dentro: header, imag, textos */
+    display: flex;
+    background-color: #1F2937;
+    height: 400px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info{
+    /* Tiene 2 items: titulo, imagenes*/
+    display:flex;
+    height: 400px;
+}
+
+.quote{
+    /* Tiene 1 item: <p> */
+    background-color: #e5e7eb;
+    height: 400px;
+}
+
+.header{
+    /* item de .hero. Tiene 2 items: logo, links */
+    align-self: start;
+    display:flex;
+    justify-content: space-between;
+    width: 70%;
+    border: solid red;
+}
+
+#logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.medio{
+    display: flex;
+    border: 1px solid red;
+    width: 70%;
+    justify-content: space-between;
+    align-self: center;
+    height: 60%;
+}
+
+.textos{
+    /* border: 1px solid red; */
+    align-self:flex-start;
+}
+
+.imag{
+    display:flex;
+    justify-content: center;
+    width: 50%;
+    /* border:1px solid red; */
+    background-color: gray;
+    align-items: center ;
+}
+
+#texto1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+#texto2{
+    font-size: 18px;
+    color: #e5e7eb;
+}
