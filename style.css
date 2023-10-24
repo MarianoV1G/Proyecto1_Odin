@@ -25,7 +25,7 @@
     display:flex;
     justify-content: space-between;
     width: 70%;
-    border: solid red;
+    /* border: solid red; */
 }
 
 #logo{
@@ -44,10 +44,10 @@
 
 .medio{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 70%;
     justify-content: space-between;
-    align-self: center;
+    align-self: flex-start;
     height: 60%;
 }
 
@@ -74,4 +74,10 @@
 #texto2{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+#boton{
+    background-color: #3882f6;
+    color: white;
+    font-size: 25px;
 }
